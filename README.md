@@ -1,2 +1,2 @@
-# Project_Cuisine
-This is a project to create a complete website for Chinese Cuisine. 
+# Project_Gallery
+This is a project to create a complete website for Art Gallery. 
