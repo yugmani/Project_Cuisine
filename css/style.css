@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+
+/*.display-3{
+    font-family: fantasy;
+}*/
+
+.display-6{
+    margin-top: -8px;
+    font-size: 12px;
+    margin-left: 103px;
+}
+
+i{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.address{
+    font-size: 12px;
+    margin-left: 100px;
+    letter-spacing: 0.3em;
+    font-family: Tw Cen MT;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: "none";
+    margin-left: 110px;
+    font-size: 14px;
+    color: gray;
+    word-spacing: -2px;
+    font-family: Tw Cen MT;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.header{
+    word-spacing: -65px;
+    
+}
+
+.wrapper{
+    margin-top: 80px;
+    /*margin-left: 200px;
+    /*text-align: center;*/
+
+}
+.home{
+    margin-left: 200px;
+}
+.artist{
+    margin-left: 45px;
+}
+
+.xhibit{
+    margin-left: 45px;
+}
+
+.curator{
+    margin-left: 45px;
+}
+
+.member{
+    margin-left: 45px;
+}
+
+.open{
+    margin-left: 45px;
+}
+
+.rental{
+    margin-left: 45px;
+}
+
+.about{
+    margin-left: 45px;
+}
+
+.contact{
+    margin-left: 45px;
+}
+
+.htag{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 410px; /*350px*/
+    font-size: 28px;
+    font-family: Tw Cen MT;
+}
+
+.hex{
+    text-transform: uppercase;
+    margin-left: 280px;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Tw Cen MT;
+    margin-top: -8px;
+}
+
+.name1{
+    text-transform: uppercase;
+    font-family: Tw Cen MT;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 310px;
+    margin-top: 25px;
+    letter-spacing: 0.1em;
+}
+
+hr{
+    margin-left: 465px;
+    margin-top: -5px;
+}
+.img1{
+    float: right;
+    margin-right: 320px;
+    
+}
+
+.subname1{
+    font-family: Tw Cent MT;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 468px;
+    margin-top: -5px;
+    /*border-bottom: 1px solid gray;*/
+   /* text-decoration-line: underlinte;
+    text-decoration-color: gray;
+    margin-bottom: 2px;*/
+}
+
+.name2{
+    margin-left: 420px;
+    text-transform: uppercase;
+    font-family: Tw Cent MT;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subname2{
+    margin-left: 370px;
+    font-family: Tw Cent MT;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+
+.name3{
+    font-family: Tw Cent MT;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 425px;
+    margin-top: 15px;
+    
+}
+.subname3{
+    font-family: Tw Cent MT;
+    font-size: 18px;
+    margin-left: 475px;
+    margin-top: -5px;
+}
+
+.date{
+    margin-left: 240px;
+    margin-top: 2px;
+    color: gray;
+    font-weight: normal;
+}
+
+.em1{
+    margin-left: 195px;
+    margin-top: -2px;
+}
+
+.press{
+    margin-left: 270px;
+    text-decoration: underline;
+    
+}
+
+em{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.last{
+    margin-left: 272px;
+    /*font-weight: normal;*/
+    font-style: italic;
+}
+
+.gal{
+    margin-left: 58px;
+    font-style: italic;
+    margin-top: -15px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 600px;
+    height: 350px;
+}
+.wrapper1{
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-right: 385px;
+}
+
+.footer{
+    margin-left: 700px;
+}
+
+.fab fa-facebook-f{
+    width: 30px;
+}
