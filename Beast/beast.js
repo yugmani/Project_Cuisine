@@ -14,15 +14,6 @@ $(document).ready(function() {
 
 
    }
-//    for (var j=3; j<6; j++){   
-//       var imd = $("<img id='core'>");
-//          
-//          imd.attr("src", "images/pencil/prayashart"+j+".jpeg");
-//          $("#fotos").append(imd);
-   
-   
-//       }
-   // }); //event listener
 
 
 }); //ready function
