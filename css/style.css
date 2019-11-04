@@ -52,7 +52,7 @@ a{
 .home{
     margin-left: 200px;
 }
-.artist{
+.artists{
     margin-left: 45px;
 }
 
@@ -117,7 +117,7 @@ hr{
 }
 .img1{
     float: right;
-    margin-right: 320px;
+    margin-right: 250px;
     
 }
 
@@ -181,7 +181,31 @@ hr{
     text-decoration: underline;
     
 }
+.jaim{
+    margin-top: 25px;
+    margin-left: 5px;
+}
 
+.russ{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.install{
+    margin-left: 8px;
+}
+
+.map{
+    margin-left: 5px;
+}
+
+.mbr{
+    margin-top: 75px;
+    height: 450px;
+    width: 500px;
+}
+.ab{
+    margin-top: 85px;
+}
 em{
     font-style: italic;
     font-weight: bold;
@@ -410,3 +434,78 @@ ul, li {
     margin:0 auto;
 }
 
+.fab {
+    padding-bottom: 10px;
+    font-size: 35px;
+    width: 50px;
+    position: absolute;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.events {
+    text-align: center;
+}
+.info {
+    margin-left: 207px;
+    
+}
+
+#cu {
+    font-size: 50px;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.ema {
+    margin-top: 20px;
+}
+
+.subj {
+    margin-top: 20px;
+}
+
+.mg {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#art {
+    margin-left: 1035px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.open {
+    height: 250px;
+}
+
+.snoopy {
+    height: 268px;
+}
+
+.dd {
+    height: 250px;
+}
+
+.row1 {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.row2 {
+    /*display: flex;
+    margin: 0 auto;*/
+    /*justify-content: center;*/
+    margin-left: 45px;
+    margin-top: 20px;
+}

@@ -21,6 +21,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   
   <link rel="stylesheet" href="css/style.css" />
+  <style>
+    @media (min-width: 576px) { body { background-color: #c51111; }}
+    @media (min-width: 768px) { body { background-color: #ec9a9a; }}
+    @media (min-width: 992px) { body { background-color: rgb(255, 255, 255); }}
+    @media (min-width: 1200px) { body { background-color: white; }}
+  </style>
 </head>
 <body>
     <header>
@@ -31,7 +37,7 @@
               <h6 class="address"><em>5458 Wilshire Blvd, Los Angeles, CA 90036</em></h6>
               <nav class="header">
                   <a class="home" href="index.html">HOME</a>
-                  <a class="artist" href="artist.html">ARTISTS</a>
+                  <a class="artists" href="artist.html">ARTISTS</a>
                   <a class="xhibit" href="exhibition.html">EXHIBITION SCHEDULE</a>
                   <a class="curator" href="arrival.html">CURATORIALS</a>
                   <a class="member" href="member.html">MEMBERSHIP</a>
@@ -46,7 +52,7 @@
        <div class="container">
            <div class="row">
                <div class="row1">
-                   <img class="openCA" src="images/2019_CA_Open.jpg" alt="LaOpen" style="width:300px">
+                   <img class="open" src="images/2019_CA_Open.jpg" alt="LaOpen" style="width:300px">
                    <img class="snoopy" src="images/brian-Griffin.jpg" alt="bGriffin"style="width:300px">
                    <img class="dd" src="images/dish_dog.jpg" alt="dishDog" style="width:300px">
                </div>
@@ -75,10 +81,14 @@
    <div class="footer">
     <a href="https://www.instagram.com/taggallery/" target="_blank"><i class="fab fa-instagram"></i></a>
     <a href="https://www.facebook.com/taggallery/?ref=br_rs" target="_blank"><i class="fab fa-facebook-square"></i></a> 
-    <a href="https://twitter.com/taggallery"><i class="fab fa-twitter-square" target="_blank"></i></a>
+    <a href="https://twitter.com/taggallery" target="_blank"><i class="fab fa-twitter-square"></i></a>
   </div>
 
 <!----<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfPKCCg5JrC9Mpis6J80RZEnRZ23oqwBA&callback=proMap"async defer></script>-->
-  <srcipt src="project.js"></srcipt>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src='javascript/javascript.js'></script>
+
 </body>
 </html>
