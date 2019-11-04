@@ -8,6 +8,9 @@
     <link
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -23,67 +26,76 @@
 
 </head>
 <body>
-  <header>
-    <!--  <h1 class="display-3">tag</h1> <i class="fas fa-font"></i>-->
-      <i class="fa -font"><bold>tag</bold></i>
-      <h5 class="display-6">GALLERY</h5>
-      <h6 class="address"><em>5458 Wilshire Blvd, Los Angeles, CA 90036</em></h6>
-      <nav class="header">
-          <a class="home" href="index.html">HOME</a>
-          <a class="artist" href="artist.html">ARTISTS</a>
-          <a class="xhibit" href="exhibition.html">EXHIBITION SCHEDULE</a>
-          <a class="curator" href="arrival.html">CURATORIALS</a>
-          <a class="member" href="member.html">MEMBERSHIP</a>
-          <a class="open" href="caopen.html">OPEN CALLS</a>
-          <a class="rental" href="rental.html">RENTAL</a>
-          <a class="about" href="about.html">ABOUT</a>
-          <a class="contact" href="contact.html">CONTACT</a>
-      </nav>          
-  </header>
+  <div id="tag">
+    <!-- <h1 class="display-3">tag</h1> <i class="fas fa-font"></i> -->
+      <div class="tagimage"><img src="images/tagSmallimage.jpg" style="width:60px; height:60px"></div>
+    
+    <!-- <i class="fa -font"><bold>tag</bold></i>
+      <h5 class="display-6">GALLERY</h5> -->
+      
+      <div class="address"><em>5458 Wilshire Blvd, Los Angeles, CA 90036</em></div>
+</div>
+  <div class="header">
+      <div class="home"> <a href="index.html">HOME</a> </div>
+      <div class="artist"> <a href="artist.html">ARTISTS</a></div>
+      <div class="xhibit"> <a href="exhibition.html">EXHIBITION SCHEDULE</a></div>
+      <div class="curator"> <a href="arrival.html">CURATORIALS</a></div>
+      <div class="member"><a href="member.html">MEMBERSHIP</a></div>
+      <div class="open"><a href="caopen.html">OPEN CALLS</a></div>
+      <div class="rental"><a href="rental.html">RENTAL</a></div>
+      <div class="about"><a href="gus.html">ABOUT</a></div>
+      <div class="contact"> <a href="contact.html">CONTACT</a></div>
+  </div>       
 
    <div class="wrapper">
       <div class="info">
         <p id="cu">CONTACT US</p>
-        <p id="loc"> Gallery Location: 5458 Wilshire Blvd, Los Angeles, CA 90036</p>
-        <p id="hours">Gallery Hours: Tuesday - Saturday, 11 am - 5 am</p>     
-        <p id="phone">Telephone: 310.829.9556</p>
-        <p id="email">Email: info@taggallery.net</p>
+        <p id="loc"> Gallery Location: 5458 Wilshire Blvd, Los Angeles, CA 90036<br>
+        Gallery Hours: Tuesday - Saturday, 11 am - 5 am<br>     
+        Telephone: 310.829.9556<br>
+        Email: info@taggallery.net</p>
        </div>
        
 
-       <form class="container">
-         <div class="form">PLEASE COMPLETE THE FORM BELOW</div>
-          
-         <div class="name">
-            Name * <br>
-          <input type="text" id="user_fname" name="first_name" size="35">
-          <input type="text" id="user_lname" size="40" style="margin-left: 50px;">        
-         </div>
-          <label for="user_name">First Name</label>
-          <label for="user_name" style="margin-left: 265px;">Last Name</label>
-          <div class="ema">
-            <label for="email">Email Address *</label><br>
-            <input type="text" id="user_email" style="width:678px">
-          </div>
-          <div class="subj">
-            <label for="subject">Subject *</label><br>
-            <input type="text" id="user_subject" style="width:678px">
-          </div>
-          <div class="mg">
-            <label for="message">Message *</label> <br>
-            <input type="text" id="user_message" style="width:678px">
-          </div>
-         
-          <button type="submit" value="Submit">Submit</button>
-       </form>
+          <form >
+                <div class="form1">PLEASE COMPLETE THE FORM BELOW</div>
+                
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name *</label>
+                    <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                      </div>
+                    </div>
+                  </div>
+                
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address *</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
 
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Subject *</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                      </div>
+                     
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea2">Message *</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"></textarea>
+                      </div>
+
+                      <button type="button" class="btn btn-secondary btn-lg" style="margin-top:10px;margin-bottom:10px">Submit</button>
+                    </form>
 
     </div>
 
-     <div class="footer">
-    <a href="https://www.instagram.com/taggallery/" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.facebook.com/taggallery/?ref=br_rs" target="_blank"><i class="fab fa-facebook-square"></i></a> 
-    <a href="https://twitter.com/taggallery"><i class="fab fa-twitter-square" target="_blank"></i></a>
-  </div>
+    <div class="footer fixed-bottom">
+      <a class="khutta" href="https://www.instagram.com/taggallery/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a class="khutta" href="https://www.facebook.com/taggallery/?ref=br_rs" target="_blank"><i class="fab fa-facebook-square"></i></a> 
+      <a class="khutta" href="https://twitter.com/taggallery"><i class="fab fa-twitter-square" target="_blank"></i></a>
+    </div>
 </body>
 </html>
