@@ -28,10 +28,8 @@ $(document).ready(function(){
                     ige.attr("src", data[j].urls.small);
                         
                 $("#viewer2").append(ige);
-                if (j===7) {
-                    ige.css("width", '150px');
-                    ige.css("height", '200px');
-                    ige.css("margin", '30px');
+                if (j===4) {
+                    ige.css("transform", 'rotate(15deg)');
                 }
     
                 }
@@ -53,7 +51,7 @@ $(document).ready(function(){
             
                 ig.attr("src", data[i].urls.small);
             
-            $("#viewer1").append(ig);
+            $("#viewer3").append(ig);
            
 
             }
@@ -65,7 +63,7 @@ $(document).ready(function(){
 
                 ige.attr("src", data[j].urls.small);
 
-            $("#viewer2").append(ige);
+            $("#viewer4").append(ige);
 
             }
 
@@ -80,7 +78,7 @@ $(document).ready(function(){
                 }
                 
 
-            $("#viewer3").append(igp);
+            $("#viewer5").append(igp);
 
             }
         
@@ -94,7 +92,7 @@ $(document).ready(function(){
     
         ig.attr("src", "images/555_"+i+".jpg");
     
-    $("#viewer1").append(ig);
+    $("#viewer6").append(ig);
    
 
     }
@@ -106,7 +104,7 @@ $(document).ready(function(){
 
         ige.attr("src", "images/555_"+j+".jpg");
 
-    $("#viewer2").append(ige);
+    $("#viewer7").append(ige);
 
     }
 
@@ -116,7 +114,7 @@ $(document).ready(function(){
 
         igp.attr("src", "images/555_"+k+".jpg");
 
-    $("#viewer3").append(igp);
+    $("#viewer8").append(igp);
 
     }
 
@@ -134,7 +132,7 @@ $(document).ready(function(){
                 ig.attr("src", data[i].urls.small);
                 ig.css("width", '150px');
                 ig.css("height", '150px');
-            $("#viewer1").append(ig);
+            $("#viewer9").append(ig);
             if (i===1) {
                 ig.css("transform", 'rotate(45deg)');
             } 
@@ -148,16 +146,16 @@ $(document).ready(function(){
 
                 ige.attr("src", data[j].urls.small);
 
-            $("#viewer2").append(ige);
+            $("#viewer10").append(ige);
             if (j===6) {
                 ige.css("width", '150px');
                 ige.css("height", '200px');
                 ige.css("margin", '30px');
             }
-            if (j===7) {
-                ige.css("transform", 'rotate(45deg)');
+            if (j===7||j===4) {
+                ige.css("transform", 'rotate(20deg)');
             }
-
+           
             }
         
     }); //json function
@@ -176,7 +174,7 @@ $("#work").on("click", function(){
             
                 ig.attr("src", data[i].urls.small);
             
-            $("#viewer1").append(ig);
+            $("#viewer11").append(ig);
            
 
             }
@@ -188,7 +186,7 @@ $("#work").on("click", function(){
 
                 ige.attr("src", data[j].urls.small);
 
-            $("#viewer2").append(ige);
+            $("#viewer12").append(ige);
 
             }
         
